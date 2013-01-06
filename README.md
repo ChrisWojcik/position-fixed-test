@@ -52,7 +52,7 @@ from my reading, there were a few false positives produced.
 * http://mobilehtml5.org/
 * [Worldwide mobile browser stats for 2012](http://gs.statcounter.com/#mobile_browser-ww-monthly-201112-201212)
 
-## Some other (Better?) Approaches
+## Some Other (Better?) Approaches
 * https://github.com/filamentgroup/fixed-fixed
 * http://kangax.github.com/cft/#IS_POSITION_FIXED_SUPPORTED
 * https://gist.github.com/1221602
