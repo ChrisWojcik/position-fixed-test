@@ -19,7 +19,7 @@ var supportsPositionFixed = (function() {
         (/Kindle Fire/i.test(ua) || /Silk\//i.test(ua)) ||
         // Nokia Symbian, Opera Mobile, wOS
         (/Symbian/i.test(ua)) || (/Opera Mobi/i.test(ua)) || (/wOSBrowser/i.test(ua)) ||
-        // Firefox Mobile
+        // Firefox Mobile less than 6
         (/Fennec\/([0-9]+)/i.test(ua) && RegExp.$1 < 6)
         // Optionally add additional browsers/devices here . . .
         ){
