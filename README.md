@@ -13,7 +13,7 @@ may be appropriate in some cases where a reliable feature test is unavailable.
 My goal in writing this test was to provide a UA-sniffing approach that was simple, 
 easy to understand, and maintainable going forward. "position:fixed" is well-supported 
 by most desktop browsers. Mobile support is much more inconsistent. Position fixed is supported 
-by iOS 5.0 and Android 3.0 and above (2.1 - 2.3 support it but user-scalable must be set to no). 
+by iOS 5.0 and Android 3.0 and above (Android 2.1 - 2.3 support it but user-scalable must be set to no). 
 I wanted a solution that would allow in these latest versions (as well as any future ones) 
 without the need to double check a feature-detection test with each new version. I also 
 needed something I could maintain on my own without access to a wide range of devices to test on.
