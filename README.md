@@ -21,7 +21,9 @@ needed something I could maintain on my own without access to a wide range of de
 Because Android and iOS have such large market shares, I was much more aggressive in 
 "blacklisting" other mobile browsers/devices, sometimes without regard to version. However, if 
 I could find good evidence that a browser/device provided strong support for "position:fixed" 
-I tried to account for that. Any help on making the test more accurate would be greatly appreciated.
+I tried to account for that. I don't have access to all of the listed devices, so 
+in some cases I had to resort to using online references. Any help on making the test 
+more accurate would be greatly appreciated.
 
 ## Some Major Major Caveats
 The obvious downside to this approach is that as new devices come out, the list of userAgents 
