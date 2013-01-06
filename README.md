@@ -15,7 +15,7 @@ easy to understand, and maintainable going forward. "position:fixed" is well-sup
 by most desktop browsers. Mobile support is much more inconsistent. Position fixed is supported 
 by iOS 5.0 and Android 3.0 and above (2.1 - 2.3 support it but user-scalable must be set to no). 
 I wanted a solution that would allow in these latest versions (as well as any future ones) 
-without the need to double check a feature-detection test in new devices. I also 
+without the need to double check a feature-detection test with each new version. I also 
 needed something I could maintain on my own without access to a wide range of devices to test on.
 
 Because Android and iOS have such large market shares, I was much more aggressive in 
