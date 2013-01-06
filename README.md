@@ -37,6 +37,9 @@ of UA-sniffing to remove a few known false positives. See the Filament Group's [
 for an approach along those lines. I ended up not using theirs because I wanted a test that 
 completed at document.ready.
 
+The real best practice is to be aware of the fact that position:fixed is inconsistently supported,
+don't rely on it as a must-have feature. Use it, but be aware of the limitations.
+
 By no means do I recommend this code to anyone and everyone. Your mileage may vary. I've included a few
 other position:fixed tests I've seen floating around the interwebs that you should definitely check out. But 
 from my reading, there were a few false positives produced.
@@ -45,10 +48,11 @@ from my reading, there were a few false positives produced.
 * [Awesome article by Brad Frost on using position:fixed](http://bradfrostweb.com/blog/mobile/fixed-position/)
 * [Modernizr Open Issue discussing feature-detection of position:fixed](https://github.com/Modernizr/Modernizr/issues/167)
 * http://caniuse.com/css-fixed
+* http://html5please.com/#position:fixed
 * http://mobilehtml5.org/
 * [Worldwide mobile browser stats for 2012](http://gs.statcounter.com/#mobile_browser-ww-monthly-201112-201212)
 
-## Some other Approaches
+## Some other (Better?) Approaches
 * https://github.com/filamentgroup/fixed-fixed
 * http://kangax.github.com/cft/#IS_POSITION_FIXED_SUPPORTED
 * https://gist.github.com/1221602
