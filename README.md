@@ -41,8 +41,7 @@ The real best practice is to be aware of the fact that position:fixed is inconsi
 don't rely on it as a must-have feature. Use it, but be aware of the limitations.
 
 By no means do I recommend this code to anyone and everyone. Your mileage may vary. I've included a few
-other position:fixed tests I've seen floating around the interwebs that you should definitely check out. But 
-from my reading, there were a few false positives produced.
+other position:fixed tests I've seen floating around the interwebs that you should definitely check out.
 
 ## References
 * [Awesome article by Brad Frost on using position:fixed](http://bradfrostweb.com/blog/mobile/fixed-position/)
