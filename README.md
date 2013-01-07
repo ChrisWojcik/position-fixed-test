@@ -9,7 +9,7 @@ This test relies on UserAgent-sniffing and explicitly blacklists browsers/device
 While UA-sniffing is generally not considered a best practice by most sources, it 
 may be appropriate in some cases where a reliable feature test is unavailable.
 
-## Goals
+## But Why?
 My goal in writing this test was to provide a UA-sniffing approach that was simple, 
 easy to understand, and maintainable going forward. "position:fixed" is well-supported 
 by most desktop browsers. Mobile support is much more inconsistent. Position fixed is supported 
